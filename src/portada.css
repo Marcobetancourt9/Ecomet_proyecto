@@ -1,0 +1,123 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #031D31;
+    color: white;
+    padding: 55px;
+}
+.highlight {
+    color: #FF6709;
+}
+.high {
+    color: #ffffff;
+}
+.info {
+    background: #FF6709;
+    padding: 20px;
+    color: #0d1b2a;
+    display: flex; /* Alinea los elementos en fila */
+    align-items: center; /* Alinea verticalmente el texto con la imagen */
+    justify-content: space-between; /* Distribuye el espacio */
+}
+.cta {
+    background-image: url('imagenes/fondo2.png'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;;
+    color: white;
+    padding: 70px;
+}
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+.orange {
+    background: #FF6709;
+    color: white;
+}
+.red {
+    background: #d00000;
+    color: white;
+}
+.green {
+    background: #008000;
+    color: white;
+}
+.explora {
+    background: #031D31;
+    color: white;
+    padding: 20px;
+}
+.rutas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.ruta img {
+    width: 200px;
+    height: 250px;
+    border-radius: 0; /* Elimina el redondeo si no quieres esquinas curvas */
+    padding: 0;
+    margin: 0;
+    background: none;
+    box-shadow: none; /* Asegura que no haya sombras blancas */
+}
+.ruta button {
+    background: none;
+    border: none;
+    padding: 0;
+}
+footer {
+    background: #031D31;
+    color: white;
+    padding: 10px;
+}
+.logo img {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.logocenter img {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 500px;
+}
+.user-icon img {
+    width: 200px; /* Tamaño más pequeño */
+    height: auto;
+    position: absolute;
+    top: 5px;
+    left: 1200px;
+}
+.hero {
+    background-image: url('imagenes/fondo.png'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+.imge img {
+    width: 500px;  /* Tamaño más pequeño */
+    height: auto;  /* Mantiene la proporción */
+    display: block; /* Asegura que la imagen se pueda mover */
+    margin-left: auto; /* Mueve la imagen hacia la derecha */
+    margin-right: 20px; /* Ajusta la separación desde el borde derecho */
+}
